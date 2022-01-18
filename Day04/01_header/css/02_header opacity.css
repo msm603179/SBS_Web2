@@ -14,19 +14,21 @@ address, em, i {font-style: normal;}
 a:focus {outline: none}
 button:focus {outline: none}
 
+
 /* layout */
-body {
+body { 
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 14px;
     color: #000;
     line-height: 1.4;
 }
 
-.warp {
+.wrap {
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
+
 /* header */
 header {
     width: 100%;
@@ -61,8 +63,8 @@ header .menuOpen span {
     left: 0;
 }
 
-header .menuOpen span.mid { top: 50%;}
-header .menuOpen span.bot { top: 100%;}
+header .menuOpen span.mid { top: 50%; }
+header .menuOpen span.bot { top: 100%; }
 
 header .book {
     display: inline-block;
@@ -79,9 +81,9 @@ header .langs {
     width: 150px;
 }
 
-header .langs li { float: left; width: 50%;}
+header .langs li { float: left; width: 50%; }
 header .langs li:nth-child(1) { font-weight: bold;}
-header .langs li:nth-child(2) { color: #ddd;}
+header .langs li:nth-child(2) { color: #ddd; }
 header .langs li a {
     display: block;
     padding: 0 30px;
@@ -89,8 +91,10 @@ header .langs li a {
     text-transform: uppercase;
 }
 
-header .right { float: right;}
-header .right li { float: left;}
-header .right li p { letter-spacing: 1px;}
+header .right { float: right; }
+header .right li { float: left; }
+header .right li p { letter-spacing: 1px; }
 
-section.visual img { width: 100%;}
+section.visual img { width: 100%;  }
+
+
